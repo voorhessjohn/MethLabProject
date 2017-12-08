@@ -376,15 +376,38 @@ drug_lab_full_result = conn.execute("SELECT count(*) from drug_lab_full;")
 drug_lab_count = drug_lab_full_result.fetchall()
 print("drug_lab_full table - "+ str(drug_lab_count[0][0]))
 
-average_value_result = conn.execute("SELECT city, zip, avg(calculated_value) as av_value FROM drug_lab_full WHERE calculated_value != 0 GROUP BY zip ORDER BY av_value DESC")
+# find average value for all drug labs
+average_michigan_value_result = conn.execute("SELECT avg(calculated_value) from drug_lab_full WHERE calculated_value != 0;")
+average_michigan_value = average_michigan_value_result.fetchall()
+print(average_michigan_value)
+
+# find zip codes with highest average value
+average_value_result = conn.execute("SELECT zip, avg(calculated_value) as av_value FROM drug_lab_full WHERE calculated_value != 0 GROUP BY zip ORDER BY av_value DESC")
 average_value = average_value_result.fetchall()
 for item in average_value:
     print(item)
 
-cal_value_result = conn.execute("SELECT address FROM drug_lab_full WHERE calculated_value = 1174800;")
-cal_value = cal_value_result.fetchall()
-for item in cal_value:
+# find top 5 most frequent cities
+frequency_result = conn.execute("SELECT city, count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number DESC LIMIT 5;")
+frequency = frequency_result.fetchall()
+for item in frequency:
     print(item)
+
+# find average value for top 5 most frequent cities
+top5_av_result = conn.execute("SELECT avg(calculated_value) FROM drug_lab_full WHERE calculated_value != 0 AND ROWID IN (SELECT count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number DESC LIMIT 5);")
+top5_av = top5_av_result.fetchall()
+print(top5_av)
+
+# find bottom 5 most frequent cities
+bottom_frequency_result = conn.execute("SELECT city, count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number ASC LIMIT 5;")
+bottom_frequency = bottom_frequency_result.fetchall()
+for item in bottom_frequency:
+    print(item)
+
+# find average value for top 5 most frequent cities
+bottom5_av_result = conn.execute("SELECT avg(calculated_value) FROM drug_lab_full WHERE calculated_value != 0 AND ROWID IN (SELECT count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number ASC LIMIT 5);")
+bottom5_av = bottom5_av_result.fetchall()
+print(bottom5_av)
 
 conn.commit()
 conn.close()
