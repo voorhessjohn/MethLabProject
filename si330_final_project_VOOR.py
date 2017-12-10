@@ -4,6 +4,7 @@ import requests
 import json
 import time
 import ast
+import csv
 
 #####################################
 # John Voorhess SI330 Final Project #
@@ -14,12 +15,22 @@ BASE_URL = "https://search.onboard-apis.com/propertyapi/v1.0.0/saleshistory/deta
 BASE_URL_ASSESSMENT = "https://search.onboard-apis.com/propertyapi/v1.0.0/assessment/detail?address1="
 GOOGLE_MAPS_API_KEY = "AIzaSyDBwwT00ktZRGAnwc2lNKwJRxVMvVdo4IE"
 
-##############
-#  TO DO:
-# parse lat and long from gps json and write to csv
-# query drug_lab_ful for aggregate measures
-#
+#______________________________________________________
+# Reference values for metrics:
+AVERAGE_MI_HOME_PRICE = 135700 #source: https://www.zillow.com/mi/home-values/
+TOP_TEN_PRICE_LIST = [185700,93700,206800,92900,174500,305800,157300,113500,359000,80300] #source: https://www.zillow.com/mi/home-values/
+MOST_FREQUENT_PRICE_LIST = [94400,123200,160500,74000,118000] #source: https://www.zillow.com/mi/home-values/
+LEAST_FREQUENT_PRICE_LIST = [159400,75300,76200,58400,137700] #source: https://www.zillow.com/mi/home-values/
+AVERAGE_MOST_FREQUENT_PRICE = sum(MOST_FREQUENT_PRICE_LIST) / float(len(MOST_FREQUENT_PRICE_LIST))
+AVERAGE_LEAST_FREQUENT_PRICE = sum(LEAST_FREQUENT_PRICE_LIST) / float(len(LEAST_FREQUENT_PRICE_LIST))
+AVERAGE_TOP_TEN_PRICE = sum(TOP_TEN_PRICE_LIST) / float(len(TOP_TEN_PRICE_LIST))
 
+################
+# Heat map link:
+# http://bit.ly/2ySN07V
+# Point map link (with addresses)
+# http://bit.ly/2BPs9Bc
+#######################
 
 # Open a connection to the database
 conn = sqlite3.connect('drug_labs.db')
@@ -84,6 +95,34 @@ print("lab table - "+str(count.fetchone()[0]))
 
 count = conn.execute("SELECT count(*) FROM lab_address_GPS;")
 print("lab_address_GPS - "+str(count.fetchone()[0]))
+
+# query all addresses and json_data form lab_address_GPS
+# parse json data to extract latitude and longitude
+#
+json_gps_result = conn.execute("SELECT address,city, state, json_data FROM lab_address_GPS;")
+json_gps = json_gps_result.fetchall()
+with open('gps.csv', 'w', newline='') as csvfile:
+    for item in json_gps:
+        json_string_backtick = item[3]
+        json_string = json_string_backtick.replace("`","'")
+        sample_dict = ast.literal_eval(json_string)
+        address = item[0]
+        city = item[1]
+        state = item[2]
+        full_address = address+" "+city+" "+state
+        latitude = str(sample_dict['results'][0]['geometry']['location']['lat'])
+        longitude = str(sample_dict['results'][0]['geometry']['location']['lng'])
+        gpswriter = csv.writer(csvfile)
+        gpswriter.writerow([full_address,latitude,longitude])
+
+# Write drug_lab_full data to csv for more visualizations:
+# drug_lab_full_csv_result = conn.execute("SELECT * from drug_lab_full;")
+# drug_lab_full_csv = drug_lab_full_csv_result.fetchall()
+# with open('druglabs.csv', 'w', newline='') as csvfile:
+#     for item in drug_lab_full_csv:
+#         print(item)
+#         druglabwriter = csv.writer(csvfile)
+#         druglabwriter.writerow(item)
 
 # query google API for GPS coords and insert them into GPS coord table
 address = conn.execute("SELECT address, city, state FROM lab;")
@@ -320,7 +359,7 @@ for item in zero_results:
     print(item)
 over_limit_result = conn.execute("SELECT lab_address_GPS.ROWID FROM lab_address_GPS WHERE json_data = '{`error_message`: `You have exceeded your daily request quota for this API. We recommend registering for a key at the Google Developers Console: https://console.developers.google.com/apis/credentials?project=_`, `results`: [], `status`: `OVER_QUERY_LIMIT`}';")
 over_limit = over_limit_result.fetchall()
-for item in zero_results:
+for item in over_limit:
     gps_rowid_to_delete.append(item[0])
     print(item)
 
@@ -376,38 +415,67 @@ drug_lab_full_result = conn.execute("SELECT count(*) from drug_lab_full;")
 drug_lab_count = drug_lab_full_result.fetchall()
 print("drug_lab_full table - "+ str(drug_lab_count[0][0]))
 
-# find average value for all drug labs
-average_michigan_value_result = conn.execute("SELECT avg(calculated_value) from drug_lab_full WHERE calculated_value != 0;")
-average_michigan_value = average_michigan_value_result.fetchall()
-print(average_michigan_value)
-
-# find zip codes with highest average value
-average_value_result = conn.execute("SELECT zip, avg(calculated_value) as av_value FROM drug_lab_full WHERE calculated_value != 0 GROUP BY zip ORDER BY av_value DESC")
+# find top ten zip codes with highest average value, excluding trailer park value
+average_value_result = conn.execute("SELECT zip, avg(calculated_value) as av_value FROM drug_lab_full WHERE calculated_value != 0 AND calculated_value != 1288300 GROUP BY zip ORDER BY av_value DESC LIMIT 10;")
 average_value = average_value_result.fetchall()
+print(" ")
+print("Top ten zip codes with highest average value:")
+i = 0
 for item in average_value:
-    print(item)
+
+    print(str(item[0]+" - "+str(format(item[1],'.2f')))+" which is "+format((item[1]/TOP_TEN_PRICE_LIST[i])*100,'.2f')+"% of average.")
+    i+=1
 
 # find top 5 most frequent cities
 frequency_result = conn.execute("SELECT city, count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number DESC LIMIT 5;")
 frequency = frequency_result.fetchall()
+print(" ")
+print("Top five most frequently appearing cities are:")
 for item in frequency:
     print(item)
 
 # find average value for top 5 most frequent cities
 top5_av_result = conn.execute("SELECT avg(calculated_value) FROM drug_lab_full WHERE calculated_value != 0 AND ROWID IN (SELECT count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number DESC LIMIT 5);")
 top5_av = top5_av_result.fetchall()
-print(top5_av)
+print("Average calculated value for five most frequent cities - "+format(top5_av[0][0],'.2f'))
+print("which is "+format((top5_av[0][0]/AVERAGE_MOST_FREQUENT_PRICE)*100,'.2f')+"% of the average.")
 
 # find bottom 5 most frequent cities
 bottom_frequency_result = conn.execute("SELECT city, count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number ASC LIMIT 5;")
 bottom_frequency = bottom_frequency_result.fetchall()
+print(" ")
+print("Five least frequently appearing cities are:")
 for item in bottom_frequency:
     print(item)
 
 # find average value for top 5 most frequent cities
 bottom5_av_result = conn.execute("SELECT avg(calculated_value) FROM drug_lab_full WHERE calculated_value != 0 AND ROWID IN (SELECT count(ROWID) as number FROM drug_lab_full GROUP BY city ORDER BY number ASC LIMIT 5);")
 bottom5_av = bottom5_av_result.fetchall()
-print(bottom5_av)
+print("Average calculated value for five least frequent cities - "+format(bottom5_av[0][0],'.2f'))
+print("which is "+format((bottom5_av[0][0]/AVERAGE_LEAST_FREQUENT_PRICE)*100,'.2f')+"% of the average.")
+
+average_bathroom_result = conn.execute("SELECT avg(baths) FROM drug_lab_full WHERE baths !=0;")
+average_bathroom = average_bathroom_result.fetchall()
+print(" ")
+print("Average number of bathrooms - "+format(average_bathroom[0][0],'.2f'))
+
+average_sq_ft_result = conn.execute("SELECT avg(sq_ft) FROM drug_lab_full WHERE sq_ft !=0;")
+average_sq_ft = average_sq_ft_result.fetchall()
+print(" ")
+print("Average square footage - "+format(average_sq_ft[0][0],'.2f'))
+
+average_beds_result = conn.execute("SELECT avg(beds) FROM drug_lab_full WHERE beds !=0;")
+average_beds = average_beds_result.fetchall()
+print(" ")
+print("Average number of bedrooms - "+format(average_beds[0][0],'.2f'))
+
+# find average value for all drug labs minus the trailer park value
+average_michigan_value_result = conn.execute("SELECT avg(calculated_value) from drug_lab_full WHERE calculated_value != 0 AND calculated_value != 1288300;")
+average_michigan_value = average_michigan_value_result.fetchall()
+print(" ")
+print("Average calculated value for all Michigan drug labs - "+format(average_michigan_value[0][0],'.2f'))
+print("which is "+format((average_michigan_value[0][0]/AVERAGE_MI_HOME_PRICE)*100,'.2f')+"% of the average price of a home in Michigan.")
+
 
 conn.commit()
 conn.close()

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f2fb1c-9b6c-40bf-bb41-460092e8691a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/si330_onboard_api_sample_output.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/when-u-wrote-i-fux-wit-micgrosoft-office-on-ur-19593983.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/drug_labs.db" afterPath="$PROJECT_DIR$/drug_labs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/si330_final_project_VOOR.py" afterPath="$PROJECT_DIR$/si330_final_project_VOOR.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,92 +16,117 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SI330_Final_Project$si330_final_project_VOOR.coverage" NAME="si330_final_project_VOOR Coverage Results" MODIFIED="1512754505045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SI330_Final_Project$si330_final_project_VOOR.coverage" NAME="si330_final_project_VOOR Coverage Results" MODIFIED="1512935240008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="si330_final_project_VOOR.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/si330_final_project_VOOR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="383" column="0" lean-forward="false" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+            <state relative-caret-position="1590">
+              <caret line="106" column="59" lean-forward="true" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1512754502000" expanded="true" signature="998:1138" ph="CREATE TABLE... IF" />
-                <marker date="1512754502000" expanded="true" signature="1180:1268" ph="CREATE TABLE... IF" />
-                <marker date="1512754502000" expanded="true" signature="1309:1429" ph="CREATE TABLE... IF" />
-                <marker date="1512754502000" expanded="true" signature="1507:1722" ph="CREATE TABLE... IF" />
-                <marker date="1512754502000" expanded="true" signature="2029:2053" ph="SELECT count... lab" />
-                <marker date="1512754502000" expanded="true" signature="2127:2163" ph="SELECT count... lab_address_GPS" />
-                <marker date="1512754502000" expanded="true" signature="2316:2352" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="2812:2903" ph="INSERT INTO lab_address_GPS... " />
-                <marker date="1512754502000" expanded="true" signature="2812:2923" ph="INSERT INTO lab_address_GPS... " />
-                <marker date="1512754502000" expanded="true" signature="2812:2943" ph="INSERT INTO lab_address_GPS... " />
-                <marker date="1512754502000" expanded="true" signature="2812:2960" ph="INSERT INTO lab_address_GPS... " />
-                <marker date="1512754502000" expanded="true" signature="3138:3205" ph="SELECT city,... lab" />
-                <marker date="1512754502000" expanded="true" signature="3348:3412" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="3765:3827" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="4163:4222" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="4543:4602" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="4927:4988" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="5859:5908" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="5859:5909" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="5859:5911" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="5859:5928" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="5859:5931" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="6479:7145" ph="SELECT addre... lab" />
-                <marker date="1512754502000" expanded="true" signature="7922:8031" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="8585:8694" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="9256:9314" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="9256:9344" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="9256:9345" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="9256:9365" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="9924:10033" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="10584:10693" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="11244:11353" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="11908:12017" ph="INSERT INTO lab_address_data... " />
-                <marker date="1512754502000" expanded="true" signature="12144:12206" ph="SELECT lab_a... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="12144:12350" ph="SELECT lab_a... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="12517:12718" ph="SELECT lab_a... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="12896:13106" ph="SELECT lab_a... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="12896:13109" ph="SELECT lab_a... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="13292:13493" ph="SELECT lab_a... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="13691:13884" ph="SELECT lab_a... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="14169:14280" ph="SELECT lab_a... lab_address_GPS" />
-                <marker date="1512754502000" expanded="true" signature="14446:14772" ph="SELECT lab_a... lab_address_GPS" />
-                <marker date="1512754502000" expanded="true" signature="15001:15057" ph="DELETE FROM " />
-                <marker date="1512754502000" expanded="true" signature="15257:15299" ph="DELETE FROM " />
-                <marker date="1512754502000" expanded="true" signature="15257:15314" ph="DELETE FROM " />
-                <marker date="1512754502000" expanded="true" signature="15480:15517" ph="SELECT * FRO... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="15729:15775" ph="SELECT json_... lab_address_data" />
-                <marker date="1512754502000" expanded="true" signature="16931:17053" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17068" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17080" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17091" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17093" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17104" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17133" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17154" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17176" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17194" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17212" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17227" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="16931:17228" ph="INSERT INTO drug_lab_full... " />
-                <marker date="1512754502000" expanded="true" signature="17269:17303" ph="SELECT count... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="17501:17529" ph="SELECT avg(c... " />
-                <marker date="1512754502000" expanded="true" signature="17501:17557" ph="SELECT avg(c... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="17501:17576" ph="SELECT avg(c... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="17758:17886" ph="SELECT city,... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="18048:18093" ph="SELECT city,... drug" />
-                <marker date="1512754502000" expanded="true" signature="18048:18145" ph="SELECT city,... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="18312:18340" ph="SELECT city,... " />
-                <marker date="1512754502000" expanded="true" signature="18312:18494" ph="SELECT avg(c... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="18402:18493" ph="SELECT count... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="18627:18715" ph="SELECT city,... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="18627:18723" ph="SELECT city,... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="18914:19095" ph="SELECT avg(c... drug_lab_full" />
-                <marker date="1512754502000" expanded="true" signature="19004:19094" ph="SELECT count... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="1833:1973" ph="CREATE TABLE... IF" />
+                <marker date="1512935237000" expanded="true" signature="2015:2103" ph="CREATE TABLE... IF" />
+                <marker date="1512935237000" expanded="true" signature="2144:2264" ph="CREATE TABLE... IF" />
+                <marker date="1512935237000" expanded="true" signature="2342:2557" ph="CREATE TABLE... IF" />
+                <marker date="1512935237000" expanded="true" signature="2864:2888" ph="SELECT count... lab" />
+                <marker date="1512935237000" expanded="true" signature="2962:2998" ph="SELECT count... lab_address_GPS" />
+                <marker date="1512935237000" expanded="true" signature="3199:3257" ph="SELECT json_... lab_address_GPS" />
+                <marker date="1512935237000" expanded="true" signature="4017:4044" ph="SELECT * fro... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="4403:4439" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="4899:4990" ph="INSERT INTO lab_address_GPS... " />
+                <marker date="1512935237000" expanded="true" signature="4899:5010" ph="INSERT INTO lab_address_GPS... " />
+                <marker date="1512935237000" expanded="true" signature="4899:5030" ph="INSERT INTO lab_address_GPS... " />
+                <marker date="1512935237000" expanded="true" signature="4899:5047" ph="INSERT INTO lab_address_GPS... " />
+                <marker date="1512935237000" expanded="true" signature="5225:5292" ph="SELECT city,... lab" />
+                <marker date="1512935237000" expanded="true" signature="5435:5499" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="5852:5914" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="6250:6309" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="6630:6689" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="7014:7075" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="7946:7995" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="7946:7996" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="7946:7998" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="7946:8015" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="7946:8018" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="8566:9232" ph="SELECT addre... lab" />
+                <marker date="1512935237000" expanded="true" signature="10009:10118" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="10672:10781" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="11343:11401" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="11343:11431" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="11343:11432" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="11343:11452" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="12011:12120" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="12671:12780" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="13331:13440" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="13995:14104" ph="INSERT INTO lab_address_data... " />
+                <marker date="1512935237000" expanded="true" signature="14231:14293" ph="SELECT lab_a... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="14231:14437" ph="SELECT lab_a... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="14604:14805" ph="SELECT lab_a... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="14983:15193" ph="SELECT lab_a... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="14983:15196" ph="SELECT lab_a... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="15379:15580" ph="SELECT lab_a... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="15778:15971" ph="SELECT lab_a... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="16256:16367" ph="SELECT lab_a... lab_address_GPS" />
+                <marker date="1512935237000" expanded="true" signature="16533:16859" ph="SELECT lab_a... lab_address_GPS" />
+                <marker date="1512935237000" expanded="true" signature="17086:17142" ph="DELETE FROM " />
+                <marker date="1512935237000" expanded="true" signature="17342:17384" ph="DELETE FROM " />
+                <marker date="1512935237000" expanded="true" signature="17342:17399" ph="DELETE FROM " />
+                <marker date="1512935237000" expanded="true" signature="17565:17602" ph="SELECT * FRO... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="17814:17860" ph="SELECT json_... lab_address_data" />
+                <marker date="1512935237000" expanded="true" signature="19016:19138" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19153" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19165" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19176" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19178" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19189" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19218" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19239" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19261" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19279" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19297" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19312" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19016:19313" ph="INSERT INTO drug_lab_full... " />
+                <marker date="1512935237000" expanded="true" signature="19354:19388" ph="SELECT count... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="19620:19780" ph="SELECT city,... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="19620:19789" ph="SELECT zip, drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="20154:20199" ph="SELECT city,... drug" />
+                <marker date="1512935237000" expanded="true" signature="20154:20251" ph="SELECT city,... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="20485:20513" ph="SELECT city,... " />
+                <marker date="1512935237000" expanded="true" signature="20485:20667" ph="SELECT avg(c... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="20575:20666" ph="SELECT count... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="20981:21069" ph="SELECT city,... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="20981:21077" ph="SELECT city,... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="21332:21513" ph="SELECT avg(c... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="21422:21512" ph="SELECT count... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="21804:21856" ph="SELECT avg(b... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="21804:21858" ph="SELECT avg(b... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="22040:22092" ph="SELECT avg(b... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="22261:22311" ph="SELECT avg(b... drug_lab_full" />
+                <marker date="1512935237000" expanded="true" signature="22559:22666" ph="SELECT avg(c... drug_lab_full" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gps.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gps.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="druglabs.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/druglabs.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,6 +139,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/gps.csv" />
         <option value="$PROJECT_DIR$/si330_final_project_VOOR.py" />
       </list>
     </option>
@@ -142,8 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -215,17 +245,17 @@
     <frame x="11" y="23" width="1269" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14914425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15158924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24926254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35545722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -253,80 +283,85 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1512754502000" expanded="true" signature="998:1138" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1180:1268" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1309:1429" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1507:1722" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="2029:2053" ph="SELECT count... lab" />
-            <marker date="1512754502000" expanded="true" signature="2127:2163" ph="SELECT count... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="2316:2352" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="2812:2903" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2923" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2943" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2960" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="3138:3205" ph="SELECT city,... lab" />
-            <marker date="1512754502000" expanded="true" signature="3348:3412" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="3765:3827" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4163:4222" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4543:4602" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4927:4988" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5908" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5909" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5911" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5928" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5931" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="6479:7145" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="7922:8031" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="8585:8694" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9314" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9344" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9345" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9365" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9924:10033" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="10584:10693" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="11244:11353" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="11908:12017" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="12144:12206" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12144:12350" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12517:12718" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12896:13106" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12896:13109" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="13292:13493" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="13691:13884" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="14169:14280" ph="SELECT lab_a... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="14446:14772" ph="SELECT lab_a... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="15001:15057" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15257:15299" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15257:15314" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15480:15517" ph="SELECT * FRO... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="15729:15775" ph="SELECT json_... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="16931:17053" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17068" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17080" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17091" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17093" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17104" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17133" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17154" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17176" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17194" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17212" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17227" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17228" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="17269:17303" ph="SELECT count... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17501:17529" ph="SELECT avg(c... " />
-            <marker date="1512754502000" expanded="true" signature="17501:17557" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17501:17576" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17758:17886" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18048:18093" ph="SELECT city,... drug" />
-            <marker date="1512754502000" expanded="true" signature="18048:18145" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18312:18340" ph="SELECT city,... " />
-            <marker date="1512754502000" expanded="true" signature="18312:18494" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18402:18493" ph="SELECT count... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18627:18715" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18627:18723" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18914:19095" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="19004:19094" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="1833:1973" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2015:2103" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2144:2264" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2342:2557" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2864:2888" ph="SELECT count... lab" />
+            <marker date="1512935237000" expanded="true" signature="2962:2998" ph="SELECT count... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="3199:3257" ph="SELECT json_... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="4017:4044" ph="SELECT * fro... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="4403:4439" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="4899:4990" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5010" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5030" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5047" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="5225:5292" ph="SELECT city,... lab" />
+            <marker date="1512935237000" expanded="true" signature="5435:5499" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="5852:5914" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6250:6309" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6630:6689" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7014:7075" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7995" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7996" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7998" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8015" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8018" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="8566:9232" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="10009:10118" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="10672:10781" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11401" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11431" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11432" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11452" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12011:12120" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12671:12780" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13331:13440" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13995:14104" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="14231:14293" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14231:14437" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14604:14805" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15193" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15196" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15379:15580" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15778:15971" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="16256:16367" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="16533:16859" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="17086:17142" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17384" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17399" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17565:17602" ph="SELECT * FRO... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="17814:17860" ph="SELECT json_... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="19016:19138" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19153" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19165" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19176" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19178" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19189" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19218" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19239" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19261" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19279" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19297" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19312" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19313" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19354:19388" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19780" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19789" ph="SELECT zip, drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20154:20199" ph="SELECT city,... drug" />
+            <marker date="1512935237000" expanded="true" signature="20154:20251" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20485:20513" ph="SELECT city,... " />
+            <marker date="1512935237000" expanded="true" signature="20485:20667" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20575:20666" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21069" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21077" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21332:21513" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21422:21512" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21856" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21858" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22040:22092" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22261:22311" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22559:22666" ph="SELECT avg(c... drug_lab_full" />
           </folding>
         </state>
       </provider>
@@ -337,164 +372,279 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1512754502000" expanded="true" signature="998:1138" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1180:1268" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1309:1429" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1507:1722" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="2029:2053" ph="SELECT count... lab" />
-            <marker date="1512754502000" expanded="true" signature="2127:2163" ph="SELECT count... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="2316:2352" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="2812:2903" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2923" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2943" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2960" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="3138:3205" ph="SELECT city,... lab" />
-            <marker date="1512754502000" expanded="true" signature="3348:3412" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="3765:3827" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4163:4222" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4543:4602" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4927:4988" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5908" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5909" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5911" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5928" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5931" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="6479:7145" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="7922:8031" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="8585:8694" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9314" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9344" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9345" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9365" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9924:10033" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="10584:10693" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="11244:11353" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="11908:12017" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="12144:12206" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12144:12350" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12517:12718" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12896:13106" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12896:13109" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="13292:13493" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="13691:13884" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="14169:14280" ph="SELECT lab_a... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="14446:14772" ph="SELECT lab_a... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="15001:15057" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15257:15299" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15257:15314" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15480:15517" ph="SELECT * FRO... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="15729:15775" ph="SELECT json_... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="16931:17053" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17068" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17080" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17091" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17093" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17104" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17133" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17154" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17176" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17194" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17212" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17227" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17228" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="17269:17303" ph="SELECT count... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17501:17529" ph="SELECT avg(c... " />
-            <marker date="1512754502000" expanded="true" signature="17501:17557" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17501:17576" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17758:17886" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18048:18093" ph="SELECT city,... drug" />
-            <marker date="1512754502000" expanded="true" signature="18048:18145" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18312:18340" ph="SELECT city,... " />
-            <marker date="1512754502000" expanded="true" signature="18312:18494" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18402:18493" ph="SELECT count... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18627:18715" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18627:18723" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18914:19095" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="19004:19094" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="1833:1973" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2015:2103" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2144:2264" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2342:2557" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2864:2888" ph="SELECT count... lab" />
+            <marker date="1512935237000" expanded="true" signature="2962:2998" ph="SELECT count... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="3199:3257" ph="SELECT json_... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="4017:4044" ph="SELECT * fro... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="4403:4439" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="4899:4990" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5010" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5030" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5047" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="5225:5292" ph="SELECT city,... lab" />
+            <marker date="1512935237000" expanded="true" signature="5435:5499" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="5852:5914" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6250:6309" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6630:6689" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7014:7075" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7995" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7996" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7998" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8015" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8018" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="8566:9232" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="10009:10118" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="10672:10781" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11401" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11431" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11432" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11452" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12011:12120" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12671:12780" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13331:13440" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13995:14104" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="14231:14293" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14231:14437" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14604:14805" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15193" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15196" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15379:15580" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15778:15971" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="16256:16367" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="16533:16859" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="17086:17142" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17384" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17399" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17565:17602" ph="SELECT * FRO... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="17814:17860" ph="SELECT json_... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="19016:19138" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19153" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19165" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19176" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19178" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19189" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19218" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19239" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19261" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19279" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19297" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19312" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19313" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19354:19388" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19780" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19789" ph="SELECT zip, drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20154:20199" ph="SELECT city,... drug" />
+            <marker date="1512935237000" expanded="true" signature="20154:20251" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20485:20513" ph="SELECT city,... " />
+            <marker date="1512935237000" expanded="true" signature="20485:20667" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20575:20666" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21069" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21077" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21332:21513" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21422:21512" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21856" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21858" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22040:22092" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22261:22311" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22559:22666" ph="SELECT avg(c... drug_lab_full" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/si330_final_project_VOOR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="383" column="0" lean-forward="false" selection-start-line="383" selection-start-column="0" selection-end-line="383" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1512754502000" expanded="true" signature="998:1138" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1180:1268" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1309:1429" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="1507:1722" ph="CREATE TABLE... IF" />
-            <marker date="1512754502000" expanded="true" signature="2029:2053" ph="SELECT count... lab" />
-            <marker date="1512754502000" expanded="true" signature="2127:2163" ph="SELECT count... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="2316:2352" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="2812:2903" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2923" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2943" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="2812:2960" ph="INSERT INTO lab_address_GPS... " />
-            <marker date="1512754502000" expanded="true" signature="3138:3205" ph="SELECT city,... lab" />
-            <marker date="1512754502000" expanded="true" signature="3348:3412" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="3765:3827" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4163:4222" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4543:4602" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="4927:4988" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5908" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5909" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5911" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5928" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="5859:5931" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="6479:7145" ph="SELECT addre... lab" />
-            <marker date="1512754502000" expanded="true" signature="7922:8031" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="8585:8694" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9314" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9344" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9345" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9256:9365" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="9924:10033" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="10584:10693" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="11244:11353" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="11908:12017" ph="INSERT INTO lab_address_data... " />
-            <marker date="1512754502000" expanded="true" signature="12144:12206" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12144:12350" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12517:12718" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12896:13106" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="12896:13109" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="13292:13493" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="13691:13884" ph="SELECT lab_a... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="14169:14280" ph="SELECT lab_a... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="14446:14772" ph="SELECT lab_a... lab_address_GPS" />
-            <marker date="1512754502000" expanded="true" signature="15001:15057" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15257:15299" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15257:15314" ph="DELETE FROM " />
-            <marker date="1512754502000" expanded="true" signature="15480:15517" ph="SELECT * FRO... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="15729:15775" ph="SELECT json_... lab_address_data" />
-            <marker date="1512754502000" expanded="true" signature="16931:17053" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17068" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17080" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17091" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17093" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17104" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17133" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17154" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17176" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17194" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17212" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17227" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="16931:17228" ph="INSERT INTO drug_lab_full... " />
-            <marker date="1512754502000" expanded="true" signature="17269:17303" ph="SELECT count... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17501:17529" ph="SELECT avg(c... " />
-            <marker date="1512754502000" expanded="true" signature="17501:17557" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17501:17576" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="17758:17886" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18048:18093" ph="SELECT city,... drug" />
-            <marker date="1512754502000" expanded="true" signature="18048:18145" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18312:18340" ph="SELECT city,... " />
-            <marker date="1512754502000" expanded="true" signature="18312:18494" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18402:18493" ph="SELECT count... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18627:18715" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18627:18723" ph="SELECT city,... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="18914:19095" ph="SELECT avg(c... drug_lab_full" />
-            <marker date="1512754502000" expanded="true" signature="19004:19094" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="1833:1973" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2015:2103" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2144:2264" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2342:2557" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2864:2888" ph="SELECT count... lab" />
+            <marker date="1512935237000" expanded="true" signature="2962:2998" ph="SELECT count... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="3199:3257" ph="SELECT json_... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="4017:4044" ph="SELECT * fro... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="4403:4439" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="4899:4990" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5010" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5030" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5047" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="5225:5292" ph="SELECT city,... lab" />
+            <marker date="1512935237000" expanded="true" signature="5435:5499" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="5852:5914" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6250:6309" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6630:6689" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7014:7075" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7995" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7996" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7998" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8015" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8018" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="8566:9232" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="10009:10118" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="10672:10781" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11401" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11431" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11432" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11452" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12011:12120" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12671:12780" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13331:13440" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13995:14104" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="14231:14293" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14231:14437" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14604:14805" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15193" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15196" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15379:15580" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15778:15971" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="16256:16367" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="16533:16859" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="17086:17142" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17384" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17399" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17565:17602" ph="SELECT * FRO... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="17814:17860" ph="SELECT json_... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="19016:19138" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19153" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19165" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19176" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19178" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19189" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19218" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19239" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19261" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19279" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19297" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19312" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19313" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19354:19388" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19780" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19789" ph="SELECT zip, drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20154:20199" ph="SELECT city,... drug" />
+            <marker date="1512935237000" expanded="true" signature="20154:20251" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20485:20513" ph="SELECT city,... " />
+            <marker date="1512935237000" expanded="true" signature="20485:20667" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20575:20666" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21069" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21077" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21332:21513" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21422:21512" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21856" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21858" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22040:22092" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22261:22311" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22559:22666" ph="SELECT avg(c... drug_lab_full" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gps.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/druglabs.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/si330_final_project_VOOR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" column="59" lean-forward="true" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1512935237000" expanded="true" signature="1833:1973" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2015:2103" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2144:2264" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2342:2557" ph="CREATE TABLE... IF" />
+            <marker date="1512935237000" expanded="true" signature="2864:2888" ph="SELECT count... lab" />
+            <marker date="1512935237000" expanded="true" signature="2962:2998" ph="SELECT count... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="3199:3257" ph="SELECT json_... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="4017:4044" ph="SELECT * fro... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="4403:4439" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="4899:4990" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5010" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5030" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="4899:5047" ph="INSERT INTO lab_address_GPS... " />
+            <marker date="1512935237000" expanded="true" signature="5225:5292" ph="SELECT city,... lab" />
+            <marker date="1512935237000" expanded="true" signature="5435:5499" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="5852:5914" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6250:6309" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="6630:6689" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7014:7075" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7995" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7996" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:7998" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8015" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="7946:8018" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="8566:9232" ph="SELECT addre... lab" />
+            <marker date="1512935237000" expanded="true" signature="10009:10118" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="10672:10781" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11401" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11431" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11432" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="11343:11452" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12011:12120" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="12671:12780" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13331:13440" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="13995:14104" ph="INSERT INTO lab_address_data... " />
+            <marker date="1512935237000" expanded="true" signature="14231:14293" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14231:14437" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14604:14805" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15193" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="14983:15196" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15379:15580" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="15778:15971" ph="SELECT lab_a... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="16256:16367" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="16533:16859" ph="SELECT lab_a... lab_address_GPS" />
+            <marker date="1512935237000" expanded="true" signature="17086:17142" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17384" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17342:17399" ph="DELETE FROM " />
+            <marker date="1512935237000" expanded="true" signature="17565:17602" ph="SELECT * FRO... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="17814:17860" ph="SELECT json_... lab_address_data" />
+            <marker date="1512935237000" expanded="true" signature="19016:19138" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19153" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19165" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19176" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19178" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19189" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19218" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19239" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19261" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19279" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19297" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19312" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19016:19313" ph="INSERT INTO drug_lab_full... " />
+            <marker date="1512935237000" expanded="true" signature="19354:19388" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19780" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="19620:19789" ph="SELECT zip, drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20154:20199" ph="SELECT city,... drug" />
+            <marker date="1512935237000" expanded="true" signature="20154:20251" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20485:20513" ph="SELECT city,... " />
+            <marker date="1512935237000" expanded="true" signature="20485:20667" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20575:20666" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21069" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="20981:21077" ph="SELECT city,... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21332:21513" ph="SELECT avg(c... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21422:21512" ph="SELECT count... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21856" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="21804:21858" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22040:22092" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22261:22311" ph="SELECT avg(b... drug_lab_full" />
+            <marker date="1512935237000" expanded="true" signature="22559:22666" ph="SELECT avg(c... drug_lab_full" />
           </folding>
         </state>
       </provider>
